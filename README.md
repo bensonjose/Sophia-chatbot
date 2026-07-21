@@ -43,4 +43,3 @@ Edit `MODEL` in `app.py`. Other free Groq models include `llama-3.1-8b-instant` 
 
 ## Notes
 - Conversation history is stored client-side in the browser (localStorage), not in a database. Clearing browser data will clear history.
-- For production use, put this behind a proper WSGI server (gunicorn) and add auth/rate limiting.
