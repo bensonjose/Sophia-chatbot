@@ -40,7 +40,7 @@ def chat():
         body = {
             "model": MODEL,                # which model to use for this request
             "messages": payload_messages,  # the full conversation history + system prompt
-            "stream": True,                # tells Groq to send the reply in small chunks instead of all at once
+            "stream": True,                # tells Groq to send the reply in small chunks instead of all at once, basically it means to send response as the model generates even if it's token by token.
             "temperature": 0.7,            # controls randomness/creativity of the response (0 = very predictable, 1 = more varied)
         }
 
