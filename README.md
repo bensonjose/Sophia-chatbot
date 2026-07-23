@@ -6,8 +6,8 @@ A ChatGPT/Copilot-style chatbot UI powered by Groq's free API (Llama 3.3 70B), b
 
 ## Setup
 
-1. **Getting a free Groq API key** — chosen because it's free to use.
-   Sign up at https://console.groq.com and create an API key (free tier).
+1. **Getting a Groq API key** — chosen because it's free to use.
+   Create an API key.
 
 
 2. **Install dependencies** (skip this if Flask and requests are already installed)
